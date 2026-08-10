@@ -868,6 +868,8 @@ locals {
     local.dev-ccm-vnet-scheme.address_prefix-subnet-ccp0105-hmpps,
     local.dev-ccm-vnet-scheme.address_prefix-subnet-ccp0105-bulkscan,
     local.dev-ccm-vnet-scheme.address_prefix-subnet-ccp0101-bulkscan,
+    local.dev-ccm-vnet-scheme.address_prefix-subnet-ccp0107-nowsce-complex,
+    local.dev-ccm-vnet-scheme.address_prefix-subnet-ccp0107-courtreg
 
   ]
   dev-ccm-app-subnets = [
