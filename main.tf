@@ -686,6 +686,8 @@ locals {
     address_prefix-subnet-ccp0105-hmpps          = "10.89.125.176/28"
     address_prefix-subnet-ccp0105-bulkscan       = "10.89.65.32/28"
     address_prefix-subnet-ccp0101-bulkscan       = "10.89.126.0/28"
+    address_prefix-subnet-ccp0107-nowsce-complex = "10.89.126.32/27"
+    address_prefix-subnet-ccp0107-courtreg       = "10.89.126.64/27"
   }
   ste-fn-app-subnets = [
     local.ste-vnet-scheme.address_prefix-subnet-casefilter,
